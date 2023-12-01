@@ -19,6 +19,8 @@ The PIA files are utilized as input data for the Stability Modeling code. The co
 
 ### How to run
 
+Simply go to the 2D and 3D stress mapping files inside notebooks folder, and click run all in the notebooks. You will get all the output files in the output folders.
+
 1. The 2D code necessitates the inclusion of IMR and MMR parameters.
 2. The 3D code requires the incorporation of IMR, MMR, and PAW parameters.
 3. The creation of graph required the Adjecency file.
