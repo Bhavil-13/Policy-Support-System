@@ -47,7 +47,7 @@ The aggregate function simple takes the average of all the talukas in a district
 
 The dissonance is simply the spread of impact.
 
-For 2D, dissonance is: $$ Dissonance[i] = \vert(Impact_{imr}[i] - Impact_{mmr}[i]) $$
+For 2D, dissonance is: $$ Dissonance[i] = abs(Impact_{imr}[i] - Impact_{mmr}[i]) $$
 
 And, for 3D, dissonance is: $$ Dissonance[i] = abs(max(Impact_{imr}[i], Impact_{mmr}[i], Impact_{paw}[i]) - min(Impact_{imr}[i], Impact_{mmr}[i], Impact_{paw}[i])) $$
 
