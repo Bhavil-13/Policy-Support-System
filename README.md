@@ -24,6 +24,17 @@ Now, Here, is the explaination of the code:
 
 `init_graph_attr` : Here, we are just initializing the graph, with capability vector, taluka name, and stress = 0.
 
+### Impact Scaling
+
+The impact values in 3D PIA file were very similar to each other. So, I scaled them using this formula:
+`
+if Impact[i] > 0 :
+            impact_imr = df[imr_head][i]/net_max
+        else:
+            impact_imr = df[imr_head][i]/net_min
+`
+Note that, net_max and net_min values are the max and min value for the three columns corresponding to Impact in the PIA files.
+
 ### Stress
 
 Here, we are calculating stress. These are the steps:
