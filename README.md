@@ -24,7 +24,7 @@ Now, Here, is the explaination of the code:
 
 `init_graph_attr` : Here, we are just initializing the graph, with capability vector, taluka name, and stress = 0.
 
-## Stress
+### Stress
 
 Here, we are calculating stress. These are the steps:
 
@@ -32,13 +32,13 @@ Here, we are calculating stress. These are the steps:
 2. Now, take the l2 distance between the capability vector of the node and it's centroid. This will be the stress. Also, note that stability is just 1-stress for the taluka, and that is the only difference between get_node_stress and get_node_stability.
 
 
-## Calculating Stress
+### Calculating Stress
 
 Performing stress value calculations for various ANC/HM values presents a challenge as the column names lack a consistent pattern suitable for a straightforward for loop. Additionally, considering the potential for future changes in the column names of the PIA file, a somewhat brute force approach becomes necessary.
 
 Here, will will get the taluka level stress in combined_Impact_ANC/combined_Impact_ANC and district level stress in aggregate_df
 
-## Aggregation
+### Aggregation
 
 The aggregate function simple takes the average of all the talukas in a district and maps them to the corresponding district. This function outputs a dictionary with key: district name and value: value to be aggregated.
 
