@@ -44,7 +44,7 @@ The aggregate function simple takes the average of all the talukas in a district
 
 ### Sustainable Intervention Score Calculations
 
-The formula for calculating the score is: $$score = (impact_{avg} * stability) \over dissonance $$
+The formula for calculating the score is: $$score = {(impact_{avg} * stability) \over dissonance} $$
 
 `district_SI_score`: it calculates the score of the districts. We pass empty lists in it and this function populates them with values. It uses the aggregated values of stress and impacts.
 
