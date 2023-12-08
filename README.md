@@ -32,6 +32,9 @@ The impact values in 3D PIA file were very similar to each other. So, I scaled t
 `
 if Impact[i] > 0 :
             impact_imr = df[imr_head][i]/net_max
+`
+            
+`
         else:
             impact_imr = df[imr_head][i]/net_min
 `
