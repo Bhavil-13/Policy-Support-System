@@ -10,8 +10,8 @@ In this project, our focus will be on modeling the talukas, assessing their perf
 
 To run this, make sure you have pandas, networkx, openpyxl and numpy installed in your system. If not, run this command on your terminal:
 
-```pip install pandas numpy openpyxl networkx
-
+```
+pip install pandas numpy openpyxl networkx
 ```
 
 Now, navigate to the stressMapping2D/stressMapping3D file and execute the command 'Run All'. This will execute all cells within the notebook, generating output files in the output_files_2D/output_files_3D folder. Subsequently, these files can be utilized for Tableau visualizations.
