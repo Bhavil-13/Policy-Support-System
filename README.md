@@ -88,6 +88,13 @@ The formula for calculating the score is: $$score = {(impact_{avg} * stability) 
 2. The second case file encapsulates parameters, R-square values, and p-values associated with the linear regression line.
 3. The third case file encapsulates parameters, R-square values, and p-values associated with the multiple linear regression line.
 
-### My Contribution
+### Linear Regression
 
-I developed the case file generators and generated three distinct case files corresponding to different intervention scenarios.
+CaseFile-1 and CaseFile-2 are made in CaseFileMaker.ipynb, while the CaseFile-3 is made in CF3.ipynb
+Linear regression was used from sklearn in the casefile2.
+Multivariate Linear regression from statsmodel was used for casefile3.
+
+
+## Tableau Visualizations
+
+The output_files_2D and output_files_3D contain the data needed for visualizing them in Tableau
