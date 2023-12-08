@@ -42,6 +42,16 @@ Here, will will get the taluka level stress in combined_Impact_ANC/combined_Impa
 
 The aggregate function simple takes the average of all the talukas in a district and maps them to the corresponding district. This function outputs a dictionary with key: district name and value: value to be aggregated.
 
+
+### Dissonance
+
+The dissonance is simply the spread of impact.
+
+For 2D, dissonance is: $$ Dissonance[i] = \abs(Impact_{imr}[i] - Impact_{mmr}[i])$$
+
+And, for 3D, dissonance is: $$ Dissonance[i] = \abs(max(Impact_{imr}[i], Impact_{mmr}[i], Impact_{paw}[i]) - min(Impact_{imr}[i], Impact_{mmr}[i], Impact_{paw}[i])) $$
+
+
 ### Sustainable Intervention Score Calculations
 
 The formula for calculating the score is: $$score = {(impact_{avg} * stability) \over dissonance} $$
